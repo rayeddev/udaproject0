@@ -18,7 +18,7 @@ public class ProjectsHubActivity extends AppCompatActivity implements View.OnCli
     public void onClick(View v) {
         if (v instanceof Button) {
             String toastText = "This will launch " + ((Button)v).getText().toString();
-            Toast.makeText(this,toastText,Toast.LENGTH_LONG).show();
+            Toast.makeText(this,toastText,Toast.LENGTH_SHORT).show();
         }
     }
 }
