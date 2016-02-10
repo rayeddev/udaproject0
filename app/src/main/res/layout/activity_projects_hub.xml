@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="udacity.rayed.nanodegree.nanoproject0.ProjectsHubActivity"
+
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_nanodegree_apps"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/info_button_drawable"
+        android:textColor="@android:color/white"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="@string/spotify_streamer"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/info_button_drawable"
+        android:textColor="@android:color/white"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="@string/scores_app"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/info_button_drawable"
+        android:textColor="@android:color/white"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="@string/library_app"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/info_button_drawable"
+        android:textColor="@android:color/white"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="@string/build_it_bigger"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/info_button_drawable"
+        android:textColor="@android:color/white"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="@string/xyz_reader"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/highlight_button_drawable"
+        android:textColor="@android:color/white"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="@string/capstone_my_own_app"
+        android:onClick="onClick"
+        />
+
+    </LinearLayout>
+
+</ScrollView>
+</RelativeLayout>
